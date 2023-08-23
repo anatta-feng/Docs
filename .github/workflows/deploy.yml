@@ -16,14 +16,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - uses: actions/cache@v2
-        with: 
-          key: ${{ github.ref }}
-          path: .cache
-      - run: pip install mkdocs-material mdx_truly_sane_lists mkdocs-rss-plugi
-      - run: mkdocs gh-deploy --force
-     
+      - name: Setup MkDocs
+        run: pip install mkdocs-material mdx_truly_sane_lists mkdocs-rss-plugi
+      - name: Build Docs
+        run: mkdocs build
+      - name: Setup Aliyun OSS Env
+        id: deployStatic
+        uses: manyuanrong/setup-ossutil@v2.0
+        with:
+          endpoint: "oss-cn-shanghai.aliyuncs.com"
+          access-key-id: ${{ secrets.ACCESS_KEY }}
+          access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
+      - name: Deploy To OSS
+        run: ossutil cp -rf site oss://dukkha-docs/     
