@@ -34,4 +34,4 @@ jobs:
           access-key-id: ${{ secrets.ACCESS_KEY }}
           access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
       - name: Deploy To OSS
-        run: ossutil cp -rf site oss://dukkha-docs/     
+        run: ossutil cp -rf site oss://anatta-docs/     
