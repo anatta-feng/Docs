@@ -1,4 +1,4 @@
-site_name: Dukkha Docs
+site_name: Anatta Docs
 site_description: 博览万物，融会贯通。
 site_url: https://docs.fxcdev.com
 
@@ -100,5 +100,11 @@ extra_css:
   - assets/stylesheets/extra.css
 
 nav:
-  - Home: index.md
-  - About: about.md
+  - 硬件 & 半导体:
+      - 硬件设计:
+          - 基础知识:
+              - 基本元器件-电阻.md
+  - 嵌入式 & 软件开发:
+      - 嵌入式开发:
+          - 51 单片机:
+              - 单片机简介.md
