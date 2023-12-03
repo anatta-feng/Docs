@@ -23,8 +23,8 @@ theme:
         icon: material/eye-outline
         name: 切换亮色模式
   language: zh
-  logo: assets/img/logo-zip.png #https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png
-  favicon: assets/img/logo.svg #https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo.svg #https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png
+  logo: .assets/img/logo-zip.png #https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png
+  favicon: .assets/img/logo.svg #https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo.svg #https://cos.ap-guangzhou.myqcloud.com/wiki-media-1253965369/doc/logo-zip.png
   features:
     - content.code.copy # 代码块复制按钮
     - content.action.edit # 文章编辑按钮
@@ -91,13 +91,13 @@ markdown_extensions:
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js
-  - assets/javascripts/mathjax.js #https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/latest.min.js
+  - .assets/javascripts/mathjax.js #https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/latest.min.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js #javascripts/tex-mml-chtml.js
-  - assets/javascripts/embed.js # https://viewer.altium.com/client/static/js/embed.js
+  - .assets/javascripts/embed.js # https://viewer.altium.com/client/static/js/embed.js
 
 extra_css:
-  - assets/stylesheets/extra.css
+  - .assets/stylesheets/extra.css
 
 nav:
   - 硬件 & 半导体:
