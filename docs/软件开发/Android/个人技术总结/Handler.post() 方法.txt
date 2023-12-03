@@ -1,0 +1,6 @@
+
+观察源码后得知
+
+1. handler.post(r) 与 handler.sendMessage(msg) 并没有本质区别，两个方法的调用完全一致
+
+2. handler.post(r) 本质上也是调用 sendMessageDelayed(msd, millisecond) 方法实现的，只是 post() 方法更为方便
