@@ -12,14 +12,6 @@
 请以此为背景，从公司技术现状和公司的技术趋势两个维度输出一份五百字的报告
 
 
-
-id LTAI5tKT9x2ozxyh4HCV3DP5
-AccessKey Secret QRANE2nKlMShhhCf8hUk9090q5jknP
-
-
-
-
-
 报告：公司播控技术整合及趋势展望
 
 **公司技术现状：**
