@@ -25,7 +25,9 @@ jobs:
       - name: Setup MkDocs
         run: pip install -r requirements.txt
       - name: Build Docs
-        run: mkdocs build
+        run: |
+          mkdocs build
+          cp -rf docs/.assets site/
       - name: Setup Aliyun OSS Env
         id: deployStatic
         uses: manyuanrong/setup-ossutil@v2.0
@@ -34,4 +36,4 @@ jobs:
           access-key-id: ${{ secrets.ACCESS_KEY }}
           access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
       - name: Deploy To OSS
-        run: ls -al site && ossutil cp site/.assets oss://anatta-docs/.assets/ && ossutil cp site oss://anatta-docs/ -rf 
+        run: ossutil cp site oss://anatta-docs/ -rf 
