@@ -1,8 +1,10 @@
 ---
 title: Sublime Text 3 快捷键汇总
-date: 2016.9.30 22:20
-categories: [笔记]
-tags: [Android]
+date: 2016-9-30 22:20
+categories:
+  - 笔记
+tags:
+  - Android
 ---
 
 Sublime Text 3非常实用，但是想要用好，一些快捷键不可或缺，所以转了这个快捷键汇总。

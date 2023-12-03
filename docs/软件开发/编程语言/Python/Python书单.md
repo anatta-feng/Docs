@@ -1,8 +1,10 @@
 ---
 title: Python书单
-date: 2016.7.26 18:00
-categories: [笔记]
-tags: [python]
+date: 2016-7-26 18:00
+categories:
+  - 笔记
+tags:
+  - python
 ---
 
 ## 前言

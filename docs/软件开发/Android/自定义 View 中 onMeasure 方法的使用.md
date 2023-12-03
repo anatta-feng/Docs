@@ -1,8 +1,10 @@
 ---
 title: 自定义 View 中 onMeasure 方法的使用
-date: 2016.12.14 20:55
-categories: [笔记]
-tags: [Android]
+date: 2016-12-14 20:55
+categories:
+  - 笔记
+tags:
+  - Android
 ---
 
 ## 自定义 View 中 onMeasure 方法的使用

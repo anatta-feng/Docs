@@ -1,8 +1,10 @@
 ---
 title: RxJava 学习
-date: 2017.4.25 15:20
-categories: [笔记]
-tags: [代码]
+date: 2017-4-25 15:20
+categories:
+  - 笔记
+tags:
+  - 代码
 ---
 # RxJava 学习
 

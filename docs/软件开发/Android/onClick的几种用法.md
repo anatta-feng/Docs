@@ -1,8 +1,10 @@
 ---
 title: onClick 的几种用法
-date: 2016.9.26 14:30
-categories: [笔记]
-tags: [Android]
+date: 2016-9-26 14:30
+categories:
+  - 笔记
+tags:
+  - Android
 ---
 
 ![1](https://img.alicdn.com/imgextra/i3/1064479076/TB2g.bWtXXXXXXcXXXXXXXXXXXX_!!1064479076.jpg)

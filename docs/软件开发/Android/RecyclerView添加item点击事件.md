@@ -1,8 +1,10 @@
 ---
 title: RecyclerView 添加 Item 点击事件
-date: 2016.11.22 20:55
-categories: [笔记]
-tags: [Android]
+date: 2016-11-22 20:55
+categories:
+  - 笔记
+tags:
+  - Android
 ---
 
 # RecyclerView 添加 Item 点击事件

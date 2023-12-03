@@ -1,8 +1,10 @@
 ---
 title: RxJava 续（线程调度）
-date: 2017.4.28 15:20
-categories: [笔记]
-tags: [代码]
+date: 2017-4-28 15:20
+categories:
+  - 笔记
+tags:
+  - 代码
 ---
 
 # RxJava 续（线程调度）

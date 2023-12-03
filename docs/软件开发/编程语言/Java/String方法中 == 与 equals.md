@@ -1,8 +1,10 @@
 ---
 title: String方法中 == 与 equals
-date: 2016.9.2 11:55
-categories: [笔记]
-tags: [Java]
+date: 2016-9-2 11:55
+categories:
+  - 笔记
+tags:
+  - Java
 ---
 >== 是比较当前对象和传进来的对象是不是一个对象
 

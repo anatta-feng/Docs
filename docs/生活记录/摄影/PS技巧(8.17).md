@@ -1,8 +1,10 @@
 ---
 title: PS技巧（8.17更新）
-date: 2016.8.17 18:00
-categories: 笔记
-tags: [ps]
+date: 2016-8-17 18:00
+categories:
+  - 笔记
+tags:
+  - ps
 ---
 
 ![1](https://img.alicdn.com/imgextra/i3/1064479076/TB244m7tXXXXXc4XXXXXXXXXXXX_!!1064479076.jpg)

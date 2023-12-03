@@ -1,8 +1,10 @@
 ---
 title: Android学习笔记
-date: 2016.10.22 20:55
-categories: [笔记]
-tags: [Android]
+date: 2016-10-22 20:55
+categories:
+  - 笔记
+tags:
+  - Android
 ---
 
 ## Android 面试题

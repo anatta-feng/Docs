@@ -1,8 +1,10 @@
 ---
 title: Python 学习
-date: 2017.12.18 18:00
-categories: 笔记
-tags: [python]
+date: 2017-12-18 18:00
+categories:
+  - 笔记
+tags:
+  - python
 ---
 
 > 最近需要弄一点机器学习，学点 Python

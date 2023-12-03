@@ -1,8 +1,10 @@
 ---
 title: Paint setShader();
-date: 2017.2.23 14:30
-categories: [工作]
-tags: [View]
+date: 2017-2-23 14:30
+categories:
+  - 工作
+tags:
+  - View
 ---
 # Paint setShader();
 

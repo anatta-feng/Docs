@@ -1,8 +1,10 @@
 ---
 title: 桌面版白色QQ托盘图标
-date: 2016.7.31 10:00
-categories: [笔记]
-tags: [杂谈]
+date: 2016-7-31 10:00
+categories:
+  - 笔记
+tags:
+  - 杂谈
 ---
 
 > *转载自远景论坛：http://bbs.pcbeta.com/viewthread-1653162-1-2.html*

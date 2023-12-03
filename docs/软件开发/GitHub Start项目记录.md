@@ -1,8 +1,8 @@
 ---
 title: GitHub Start项目记录
-date: 2016.9.28 21:10
-tags: [收藏]
-
+date: 2016-9-28 21:10
+tags:
+  - 收藏
 ---
 
 **GitHub 中 Start 的项目多了难免会很乱，于是在此做记录**

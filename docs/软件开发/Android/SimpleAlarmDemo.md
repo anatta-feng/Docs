@@ -1,8 +1,10 @@
 ---
 title: SimpleAlarmDemo
-date: 2016.9.27 15:20
-categories: [笔记]
-tags: [Android]
+date: 2016-9-27 15:20
+categories:
+  - 笔记
+tags:
+  - Android
 ---
 
 # 这是一个简易的闹钟 Demo
