@@ -34,4 +34,4 @@ jobs:
           access-key-id: ${{ secrets.ACCESS_KEY }}
           access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
       - name: Deploy To OSS
-        run: ossutil cp site oss://anatta-docs/ -rf && ossutil cp site/.* oss://anatta-docs/
+        run: ossutil cp site oss://anatta-docs/ -rf && ossutil cp site/.assets oss://anatta-docs/.assets/
