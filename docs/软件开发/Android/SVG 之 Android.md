@@ -110,7 +110,7 @@ Drawable 是可以直接设置颜色的，有两个接口，`setTint` 和 `setCo
 
 **大概说一下思路。**
 
-首先利用 Resource 的接口，将 VectorDrawable 作为一个 xml 读取出来，然后解析出 pathData、clipPath 等数据，根据其语法，将其转化为 Android 的 Path 类然后将其渲染到 Canvas 上。这部分十分繁琐，好在已经有[前辈写好了这部分代码](https://github.com/devendroid/VectorChildFinder)，我在他的基础上增加了一个接口，使得这个类库更具有普适性。[改动后的代码在这里](https://gitlab.gz.cvte.cn/fengxuchao/vectorchildfinder)
+首先利用 Resource 的接口，将 VectorDrawable 作为一个 xml 读取出来，然后解析出 pathData、clipPath 等数据，根据其语法，将其转化为 Android 的 Path 类然后将其渲染到 Canvas 上。这部分十分繁琐，好在已经有[前辈写好了这部分代码](https://github.com/devendroid/VectorChildFinder)，我在他的基础上增加了一个接口，使得这个类库更具有普适性。
 
 ### 类库用法
 
