@@ -13,7 +13,7 @@
 查看 logcat 会发现进程启动的时候会打印一行 log
 
 ```verilog
-06-08 06:10:16.921 I/ActivityManager( 3035): Start proc 4299:com.cvte.tv.bluetoothguide/1000 for activity com.cvte.tv.bluetoothguide/.GuideActivity
+06-08 06:10:16.921 I/ActivityManager( 3035): Start proc 4299:com.xxx/1000 for activity com.xxx/.GuideActivity
 ```
 
 这行 log 什么意思呢？看看代码：
