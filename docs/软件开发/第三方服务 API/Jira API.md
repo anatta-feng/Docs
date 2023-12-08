@@ -10,5 +10,5 @@ The issue is identified by its ID or key, however, if the identifier doesn't mat
 
 # 过滤指定人未解决的项目列表
 
-https://jira.cvte.com/rest/api/2/search?jql=assignee=fengxuchao+AND+resolution=Unresolved+ORDER+BY+updated+ASC
+https://jira.xxx.com/rest/api/2/search?jql=assignee=fengxuchao+AND+resolution=Unresolved+ORDER+BY+updated+ASC
 
