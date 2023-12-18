@@ -1,3 +1,0 @@
-# 编译参数
-
-gn gen out/Default --args='ndk="path-to-ndk" target_cpu="arm" is_component_build=true'
