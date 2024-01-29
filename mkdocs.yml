@@ -101,16 +101,23 @@ extra_css:
 
 nav:
   - Rust 实战:
-      - 基础知识:
-          - 软件开发/编程语言/Rust/基础知识.md
+    - 基础知识:
+      - 软件开发/编程语言/Rust/基础知识.md
   - 硬件 & 半导体:
-      - 硬件设计:
-          - 基础知识:
-              - 硬件设计/基础知识/基本元器件-电阻.md
+    - 硬件设计:
+      - 基础知识:
+        - 硬件设计/基础知识/基本元器件-电阻.md
   - 嵌入式 & 软件开发:
-      - 嵌入式开发:
-          - 51 单片机:
-              - 嵌入式开发/51 单片机/单片机简介.md
+    - 嵌入式开发:
+      - 51 单片机:
+        - 嵌入式开发/51 单片机/单片机简介.md
+  - 渲染引擎:
+    - OpenGL:
+      - 渲染引擎/OpenGL/index.md
+    - SKIA:
+      - 渲染引擎/Skia/Skia 编译.md
+    - TGFX:
+      - 渲染引擎/TGFX/index.md
   - Homelab:
-      - Unraid:
-          - 折腾笔记/Homelab/Unraid/安装 Unraid.md
+    - Unraid:
+      - 折腾笔记/Homelab/Unraid/安装 Unraid.md
