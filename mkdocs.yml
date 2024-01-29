@@ -68,7 +68,7 @@ plugins:
         utm_medium: "RSS"
         utm_campaign: "feed-syndication"
 
-copyright: Copyright &copy; 2015 - 2023 by Power | <a href="https://beian.miit.gov.cn"> 陕 ICP 备 19014586 号 </a>
+copyright: Copyright &copy; 2015 - 2024 by Power | <a href="https://beian.miit.gov.cn"> 陕 ICP 备 19014586 号 </a>
 
 markdown_extensions:
   - pymdownx.arithmatex:
@@ -111,3 +111,6 @@ nav:
       - 嵌入式开发:
           - 51 单片机:
               - 嵌入式开发/51 单片机/单片机简介.md
+  - Homelab:
+      - Unraid:
+          - 折腾笔记/Homelab/Unraid/安装 Unraid.md
